@@ -5,7 +5,7 @@ s.ios.deployment_target = '12.0'
 s.name = "SocialAlarmPod"
 s.summary = "SocialAlarmPod lets a user create a social alarm"
 s.requires_arc = true
-s.version = "0.2.0"
+s.version = "0.3.0"
 s.license = { :type => "MIT", :file => "LICENSE" }
 s.author = { "Siddhant Magow" => "siddhant.magow@gmail.com" }
 s.homepage = "https://github.com/sidmagow/SocialAlarm"
