@@ -17,7 +17,7 @@ class GetGreetingsFromiOS {
     
     public func returnGreetings() -> String {
         var updatedGreetings = ""
-        updatedGreetings = "Hello \(name)"
+        updatedGreetings = "Hello \(name) from iOS"
         return updatedGreetings
     }
 }
