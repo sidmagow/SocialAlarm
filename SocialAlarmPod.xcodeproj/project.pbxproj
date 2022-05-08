@@ -11,6 +11,7 @@
 		471535532827FDFE00E94F16 /* SocialAlarmPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 471535482827FDFE00E94F16 /* SocialAlarmPod.framework */; };
 		471535582827FDFE00E94F16 /* SocialAlarmPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471535572827FDFE00E94F16 /* SocialAlarmPodTests.swift */; };
 		471535592827FDFE00E94F16 /* SocialAlarmPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 4715354B2827FDFE00E94F16 /* SocialAlarmPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47153563282811DD00E94F16 /* GetGreetings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47153562282811DD00E94F16 /* GetGreetings.swift */; };
 		E35AC9E6A3DAF77C3484654C /* libPods-SocialAlarmPod.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B545A2F4FB945607C7CC05C3 /* libPods-SocialAlarmPod.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		4715354C2827FDFE00E94F16 /* SocialAlarmPod.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SocialAlarmPod.docc; sourceTree = "<group>"; };
 		471535522827FDFE00E94F16 /* SocialAlarmPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialAlarmPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		471535572827FDFE00E94F16 /* SocialAlarmPodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialAlarmPodTests.swift; sourceTree = "<group>"; };
+		47153562282811DD00E94F16 /* GetGreetings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGreetings.swift; sourceTree = "<group>"; };
 		516B28894C29B1D3F82188EE /* Pods-SocialAlarmPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialAlarmPod.release.xcconfig"; path = "Target Support Files/Pods-SocialAlarmPod/Pods-SocialAlarmPod.release.xcconfig"; sourceTree = "<group>"; };
 		AB03B265F6F60F2AF5136BC3 /* Pods-SocialAlarmPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialAlarmPod.debug.xcconfig"; path = "Target Support Files/Pods-SocialAlarmPod/Pods-SocialAlarmPod.debug.xcconfig"; sourceTree = "<group>"; };
 		B545A2F4FB945607C7CC05C3 /* libPods-SocialAlarmPod.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SocialAlarmPod.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,6 +80,7 @@
 		4715354A2827FDFE00E94F16 /* SocialAlarmPod */ = {
 			isa = PBXGroup;
 			children = (
+				4715356428281F1D00E94F16 /* Sources */,
 				4715354B2827FDFE00E94F16 /* SocialAlarmPod.h */,
 				4715354C2827FDFE00E94F16 /* SocialAlarmPod.docc */,
 			);
@@ -92,13 +95,20 @@
 			path = SocialAlarmPodTests;
 			sourceTree = "<group>";
 		};
+		4715356428281F1D00E94F16 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				47153562282811DD00E94F16 /* GetGreetings.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		7DF93DF80CC36F94EC0E9159 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				AB03B265F6F60F2AF5136BC3 /* Pods-SocialAlarmPod.debug.xcconfig */,
 				516B28894C29B1D3F82188EE /* Pods-SocialAlarmPod.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -246,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4715354D2827FDFE00E94F16 /* SocialAlarmPod.docc in Sources */,
+				47153563282811DD00E94F16 /* GetGreetings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,6 +460,7 @@
 		471535602827FDFE00E94F16 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G49Z9VB8TL;
@@ -465,6 +477,7 @@
 		471535612827FDFE00E94F16 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G49Z9VB8TL;
