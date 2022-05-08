@@ -1,0 +1,3 @@
+[submodule "GreetingGeneratorLib"]
+	path = GreetingGeneratorLib
+	url = https://github.com/rashanjyot/GreetingGeneratorLib
