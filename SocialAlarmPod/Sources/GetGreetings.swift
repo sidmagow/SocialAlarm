@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+class GetGreetingsFromiOS {
+    
+    var name: String = ""
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    public func returnGreetings() -> String {
+        var updatedGreetings = ""
+        updatedGreetings = "Hello \(name)"
+        return updatedGreetings
+    }
+}
